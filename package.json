@@ -1,0 +1,49 @@
+{
+  "name": "@mcpx-digital/timezone",
+  "version": "0.1.0",
+  "description": "MCP server for IANA timezone conversion, meeting overlap windows, and cross-zone time questions. Pure date-fns-tz / Intl — no external APIs.",
+  "type": "module",
+  "bin": {
+    "timezone-mcp": "./index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "files": [
+    "index.js",
+    "lib.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "date-fns": "^4.1.0",
+    "date-fns-tz": "^3.2.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "timezone",
+    "iana",
+    "meeting",
+    "date-fns-tz",
+    "mcpx"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheoryofShadows/timezone-mcp.git"
+  },
+  "homepage": "https://github.com/TheoryofShadows/timezone-mcp#readme",
+  "author": "TheoryofShadows",
+  "bugs": {
+    "url": "https://github.com/TheoryofShadows/timezone-mcp/issues"
+  }
+}
